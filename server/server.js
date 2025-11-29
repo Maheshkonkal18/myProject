@@ -29,6 +29,9 @@ app.get("/", (req, res) => {
   res.send("VVCE Lost & Found API running");
 });
 
+console.log("CI TEST START");
+
+
 // Connect to MongoDB and start server
 const PORT = process.env.PORT || 5000;
 
